@@ -5,4 +5,4 @@ metadata:
   namespace: default
 spec:
   url: https://github.com/toponsky/check-hourly-agent-asset/releases/download/0.0.1/check-hourly-agent-asset-0.0.1.tar.gz
-  sha512: 4165182272a6e9a853945f8bca2c936e81f460869f1e87e22d35984bc55ca1bc0f8271147b654a688149d434e83fe57e5b76e5d3a7b34fa12b194dc9e4eb4296
+  sha512: 5320a34778c11dbc9554d82fd09e2c170a060931b43e44f8e11d04b26e15d17a33a38204859e4ec42f26cf4d5fb8681b00e757d26b69bdc000bdc1e11b5235fc
