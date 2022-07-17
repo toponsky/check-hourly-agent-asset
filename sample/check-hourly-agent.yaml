@@ -1,0 +1,13 @@
+type: CheckConfig
+api_version: core/v2
+metadata:
+  name: check-hourly-agent-task
+  namespace: default
+spec:
+  command: check-hourly-agent.sh
+  runtime_assets:
+  - check-hourly-agent-asset
+  interval: 60
+  publish: true
+  subscriptions:
+  - hourly_task_agent

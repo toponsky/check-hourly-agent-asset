@@ -1,2 +1,6 @@
 #!/bin/sh
-/usr/bin/python check_hourly_agent.py
+scriptDir="$(dirname $(dirname $(realpath $0)) )/bin"
+
+# echo "$scriptDir"
+
+/usr/bin/python "$scriptDir/check-hourly-agent.py"
